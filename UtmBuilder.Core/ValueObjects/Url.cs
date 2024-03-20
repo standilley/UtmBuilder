@@ -9,18 +9,14 @@ using UtmBuilder.Core.ValueObjects.Exceptions;
 namespace UtmBuilder.Core.ValueObjects
 {
     public class Url : ValueObject
-    {
-        private const string UrlRegexPattern =
-            @"^(?:(?:https?|ftp):\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]*$";
-        /// <summary>
+    {   /// <summary>
         /// Create a new URL
         /// </summary>
         /// <param name="address"> Address of URL (Website link)</param>
         public Url(string address)
         {
             Address = address;
-            if (Regex.IsMatch(Address, UrlRegexPattern))
-                throw new InvalidUrlException();
+            InvalidUrlException.ThrowIfInvalid(address);
         }
         /// <summary>
         /// Address of URL (Website link)
