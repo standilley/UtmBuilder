@@ -18,7 +18,8 @@ namespace UtmBuilder.Core.ValueObjects
         /// <param name="id">The ads campaign id.</param>
         /// <param name="term">Identify the paid keywords</param>
         /// <param name="content">Use to differentiate ads</param>
-        public Campaign(string source,
+        public Campaign(
+            string source,
             string medium, 
             string name, 
             string? id = null, 
