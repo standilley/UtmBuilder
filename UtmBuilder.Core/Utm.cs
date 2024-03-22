@@ -59,13 +59,5 @@ namespace UtmBuilder.Core
 
             return $"{Url.Address}?{string.Join("&", segments)}";
         }
-        public class Test
-        {
-            public void Test2()
-            {
-                var url = "https://balta.io/player/assistir/dfa3752e-4bd5-4101-bafb-ff3afcf39930/5e60adc7-0db2-4048-bed7-db6f0548f6c5";
-               string utm = (Utm)url;
-            }
-        }
     }
 }
