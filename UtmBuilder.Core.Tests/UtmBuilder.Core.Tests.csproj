@@ -20,4 +20,8 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UtmBuilder.Core\UtmBuilder.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -389,6 +389,16 @@
             "related": ".xml"
           }
         }
+      },
+      "UtmBuilder.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UtmBuilder.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UtmBuilder.Core.dll": {}
+        }
       }
     }
   },
@@ -986,6 +996,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "UtmBuilder.Core/1.0.0": {
+      "type": "project",
+      "path": "../UtmBuilder.Core/UtmBuilder.Core.csproj",
+      "msbuildProject": "../UtmBuilder.Core/UtmBuilder.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -993,6 +1008,7 @@
       "MSTest.TestAdapter >= 3.1.1",
       "MSTest.TestFramework >= 3.1.1",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "UtmBuilder.Core >= 1.0.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -1022,7 +1038,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\UtmBuilder\\UtmBuilder.Core\\UtmBuilder.Core.csproj": {
+              "projectPath": "C:\\UtmBuilder\\UtmBuilder.Core\\UtmBuilder.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
