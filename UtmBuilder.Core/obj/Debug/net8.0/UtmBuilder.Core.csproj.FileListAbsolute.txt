@@ -5,8 +5,8 @@ C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.GeneratedMSBuildE
 C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.AssemblyInfoInputs.cache
 C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.AssemblyInfo.cs
 C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.csproj.CoreCompileInputs.cache
+C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.sourcelink.json
 C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.dll
 C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\refint\UtmBuilder.Core.dll
 C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.pdb
 C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\ref\UtmBuilder.Core.dll
-C:\UtmBuilder\UtmBuilder.Core\obj\Debug\net8.0\UtmBuilder.Core.sourcelink.json

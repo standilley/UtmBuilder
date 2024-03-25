@@ -11,17 +11,40 @@ namespace UtmBuilder.Core.Tests.ValueObjects
     [TestClass]
     public class UrlTests
     {
+        private const string invalidUrl = "fruta";
+        private const string validUrl = "https://teste.io";
         [TestMethod]
         [ExpectedException(typeof(InvalidUrlException))]
         public void Dado_uma_url_invalida_deve_retornar_uma_excecao()
         {
-            new Url("fruta");      
+            new Url(invalidUrl);      
         }
         [TestMethod]
-        public void Dado_uma_url_valida_nao_deve_retornar_uma_excecao()
+        [DataRow(" ", true)]
+        [DataRow("http", true)]
+        [DataRow("banana", true)]
+        [DataRow("https://testando.io", false)]
+        public void TestUrl(
+            string link,
+            bool expectException)
         {
-            var url = new Url("https://teste.io");
-            Assert.IsTrue(true);
+            if (expectException)
+            {
+                try
+                {
+                    new Url(link);
+                    Assert.Fail();
+                }
+                catch (InvalidUrlException)
+                {
+                    Assert.IsTrue(true);
+                }
+            }
+            else
+            {
+                new Url(link);
+                Assert.IsTrue(true);
+            }
         }
     }
 }

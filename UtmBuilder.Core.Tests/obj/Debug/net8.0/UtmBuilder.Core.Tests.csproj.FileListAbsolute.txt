@@ -1,3 +1,4 @@
+C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_UtmBuilder.Core.Tests
 C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\testhost.dll
 C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\testhost.exe
 C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
@@ -97,6 +98,8 @@ C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.T
 C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\UtmBuilder.Core.dll
+C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\UtmBuilder.Core.pdb
 C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\UtmBuilder\UtmBuilder.Core.Tests\obj\Debug\net8.0\UtmBuilder.Core.Tests.csproj.AssemblyReference.cache
 C:\UtmBuilder\UtmBuilder.Core.Tests\obj\Debug\net8.0\UtmBuilder.Core.Tests.GeneratedMSBuildEditorConfig.editorconfig
@@ -110,6 +113,3 @@ C:\UtmBuilder\UtmBuilder.Core.Tests\obj\Debug\net8.0\refint\UtmBuilder.Core.Test
 C:\UtmBuilder\UtmBuilder.Core.Tests\obj\Debug\net8.0\UtmBuilder.Core.Tests.pdb
 C:\UtmBuilder\UtmBuilder.Core.Tests\obj\Debug\net8.0\UtmBuilder.Core.Tests.genruntimeconfig.cache
 C:\UtmBuilder\UtmBuilder.Core.Tests\obj\Debug\net8.0\ref\UtmBuilder.Core.Tests.dll
-C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_UtmBuilder.Core.Tests
-C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\UtmBuilder.Core.dll
-C:\UtmBuilder\UtmBuilder.Core.Tests\bin\Debug\net8.0\UtmBuilder.Core.pdb
