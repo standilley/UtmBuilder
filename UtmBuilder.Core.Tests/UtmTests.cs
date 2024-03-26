@@ -28,12 +28,18 @@ namespace UtmBuilder.Core.Tests
                 "ter",
                 "ctn");
         [TestMethod]
-        public void Deve_retornar_de_url_para_utm()
+        public void Deve_retornar_da_string_para_utm()
         {
             var utm = new Utm(_url, _campaign);
 
-            Assert.AreEqual(result, utm.ToString());
-            Assert.AreEqual(result, (string)utm); // implicit operators
+            Assert.AreEqual(result.ToString(), utm.ToString());// testando o implicit operator
+        }
+        [TestMethod]
+        public void Deve_retornar_do_utm_para_string()
+        {
+            var utm = new Utm(_url, _campaign);
+
+            Assert.AreEqual((string)utm, result); // testando o implicit operator
         }
         [TestMethod]
         public void Deve_retornar_de_utm_para_url()
